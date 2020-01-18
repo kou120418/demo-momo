@@ -15,11 +15,11 @@ var swiper = new Swiper('.swiper-slideshow', {
   },
 });
 
-$('.right-nav-fixed a').click( function(event){
-    event.preventDefault();
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+$('.right-nav-fixed a').click(function (event) {
+  event.preventDefault();
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
 });
 
 // $(function(){
