@@ -77,10 +77,10 @@
         <div class="pc-mt">
           <div class="event-banner-pic">
             <picture>
-              <source media="(max-width: 1920px)"
-                srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/title-lg.png" />
-              <source media="(max-width: 415px)"
-                srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/title-sm.jpg" />
+              <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/title-lg.png"
+                media="(min-width: 416px)" />
+              <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/title-sm.jpg"
+                media="(min-width: 240px)" />
               <img src="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/title-lg.png"
                 alt="momo-title-pic" />
             </picture>
@@ -101,9 +101,9 @@
         <div class="hot-title">
           <picture>
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/H-lg.png"
-              media="(max-width: 1920px)" />
+              media="(min-width: 416px)" />
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/H-sm.jpg"
-              media="(max-width: 415px)" />
+              media="(min-width: 240px)" />
             <img src="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/H-lg.png"
               alt="hot-title-pic" />
           </picture>
@@ -178,9 +178,9 @@
         <div class="brand-title">
           <picture>
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/B-lg.png"
-              media="(max-width: 1920px)" />
+              media="(min-width: 416px)" />
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/B-sm.jpg"
-              media="(max-width: 415px)" />
+              media="(min-width: 240px)" />
             <img src="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/B-lg.png"
               alt="brand-title-pic" />
           </picture>
@@ -408,9 +408,9 @@
         <div class="today-title-bg">
           <picture>
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/T-lg.png"
-              media="(max-width: 1920px)" />
+              media="(min-width: 416px)" />
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/T-sm.jpg"
-              media="(max-width: 415px)" />
+              media="(min-width: 240px)" />
             <img src="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/T-lg.png"
               alt="today-title-pic" />
           </picture>
@@ -511,9 +511,9 @@
         <div class="hotsale-title-bg">
           <picture>
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/HS-lg.png"
-              media="(max-width: 1920px)" />
+              media="(min-width: 416px)" />
             <source srcset="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/HS-sm.jpg"
-              media="(max-width: 415px)" />
+              media="(min-width: 240px)" />
             <img src="https://raw.githubusercontent.com/kou120418/demo-momo/master/img/title/HS-lg.png"
               alt="hotsale-title-pic" />
           </picture>
@@ -1125,6 +1125,10 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="./picturefill.min.js"></script>
+  <script>
+    document.createElement("picture");
+  </script>
   <script src="./script.js"></script>
 
 </body>
