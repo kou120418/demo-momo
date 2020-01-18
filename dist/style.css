@@ -400,7 +400,7 @@ li.hotsale:hover h4 {
 li.today-big,
 li.hotsale-big {
   float: left;
-  display: inline-block;
+  display: block;
   background-color: #fff;
   width: 360px;
   height: 565px;
@@ -479,7 +479,7 @@ li.hotsale-big a p .price {
 li.today,
 li.hotsale {
   float: left;
-  display: inline-block;
+  display: block;
   position: relative;
   margin: 0px 1px 1px 0px;
   padding: 0px 0px 0px 0px;
@@ -645,7 +645,7 @@ li.furniture-item,
 li.sport-item {
   position: relative;
   float: left;
-  display: inline-block;
+  display: block;
   background-color: #fff;
   width: 230px;
   height: 350px;
@@ -877,7 +877,7 @@ li.sport-item:hover .sport-brand h4 {
 }
 
 .area-hashtag dl.hashtag-box dt {
-  display: inline-block;
+  display: block;
   float: left;
   margin: 0px;
   padding: 10px;
@@ -890,7 +890,7 @@ li.sport-item:hover .sport-brand h4 {
 
 .area-hashtag dl.hashtag-box dd strong {
   float: left;
-  display: inline-block;
+  display: block;
   margin: 0px 10px 10px 0px;
   font-weight: normal;
 }
@@ -960,7 +960,6 @@ li.sport-item:hover .sport-brand h4 {
     z-index: 5;
     display: block;
     position: relative;
-    vertical-align: top;
     margin: 0px;
     margin-top: 55px;
     padding: 0px;
@@ -1005,8 +1004,7 @@ li.sport-item:hover .sport-brand h4 {
   }
 
   .nav-for-phone ul.navbar-for-phone {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 100%;
     float: right;
     top: 0px;
@@ -1043,7 +1041,6 @@ li.sport-item:hover .sport-brand h4 {
   .area-brand .brand-title {
     display: block;
     position: relative;
-    vertical-align: top;
     margin: 0px;
     padding: 0px;
     left: 0px;
@@ -1085,7 +1082,7 @@ li.sport-item:hover .sport-brand h4 {
 
   .area-hot .ul-block ul.hot-pics li.hot {
     float: left;
-    display: inline-block;
+    display: block;
     width: 48%;
     margin-right: 1%;
     margin-left: 1%;
@@ -1124,7 +1121,7 @@ li.sport-item:hover .sport-brand h4 {
     list-style: none;
     float: left;
     position: relative;
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     background-color: #e55f92;
     width: 48%;
@@ -1240,7 +1237,7 @@ li.sport-item:hover .sport-brand h4 {
   .area-hotsale .hotsale-title-bg ul.hotsale li.hotsale {
     position: relative;
     float: right;
-    display: inline-block;
+    display: block;
     background-color: #fff;
     width: 45%;
     height: 100%;
@@ -1647,7 +1644,7 @@ li.sport-item:hover .sport-brand h4 {
   ul.furniture,
   ul.sport {
     position: relative;
-    display: inline-block;
+    display: block;
     float: left;
     width: 100%;
     margin: 0px;
@@ -1672,7 +1669,7 @@ li.sport-item:hover .sport-brand h4 {
   li.furniture-item,
   li.sport-item {
     position: relative;
-    display: inline-block;
+    display: block;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -1915,7 +1912,7 @@ li.sport-item:hover .sport-brand h4 {
   }
 
   .area-hashtag dl.hashtag-box dt {
-    display: inline-block;
+    display: block;
     float: left;
     margin: 0px;
     padding: 10px;
@@ -1928,7 +1925,7 @@ li.sport-item:hover .sport-brand h4 {
 
   .area-hashtag dl.hashtag-box dd strong {
     float: left;
-    display: inline-block;
+    display: block;
     margin: 0px 10px 10px 0px;
     font-weight: normal;
   }
