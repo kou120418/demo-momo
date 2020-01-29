@@ -188,6 +188,12 @@ ul.fixedbox-01 li.nav-slide a {
   top: 10px;
 }
 
+.banner-slogan {
+  position: relative;
+  top: -190px;
+  left: 25px;
+}
+
 .ballon-updown {
   position: absolute;
   left: 970px;
@@ -978,6 +984,21 @@ li.sport-item:hover .sport-brand h4 {
   .pc-mt .event-banner-pic picture img {
     margin: 0px;
     width: 100%;
+  }
+
+  .pc-mt .event-banner-pic .banner-slogan {
+    position: relative;
+    top: 0px;
+    left: 3%;
+    width: 100%;
+    margin-top: -38.5%;
+    margin-bottom: 35%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .pc-mt .event-banner-pic .banner-slogan img {
+    width: 42%;
   }
 
   .pc-mt .ballon-updown,
